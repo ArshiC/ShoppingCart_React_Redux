@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Snapshot Testing it should render Button 1`] = `
+<button
+  className="btn btn-sm btn-undefined"
+>
+  Product Name
+</button>
+`;
+
+exports[`Button Component Snapshot Testing it should render Button with Button-Type 1`] = `
+<button
+  className="btn btn-sm btn-danger"
+>
+  Product Name
+</button>
+`;
+
+exports[`it should render Button 1`] = `
+<button
+  className="btn btn-sm btn-undefined"
+>
+  Product Name
+</button>
+`;
+
+exports[`it should render Button-Type 1`] = `
+<button
+  className="btn btn-sm btn-danger"
+>
+  Product Name
+</button>
+`;

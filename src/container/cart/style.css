@@ -1,0 +1,23 @@
+.removeBtn {
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.cart_container {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.cart_item {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+}
+.cart_item_name {
+  width: 160px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: left;
+}
