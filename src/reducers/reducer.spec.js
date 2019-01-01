@@ -1,5 +1,4 @@
 import Reducer from "./index";
-import { addToCart, removeFromCart } from "./index";
 
 let initialState,
 	prods,

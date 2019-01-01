@@ -10,8 +10,7 @@ export default function(state = initialState, action) {
 	// console.log("state", initialState)
 	switch (action.type) {
 	case "ADD_TO_CART":
-		return {
-			...state,
+		return {...state,
 			productList: [...action.payload.list &&
           action.payload.list.length > 0 &&
           action.payload.list.filter(cartItem => {return cartItem.productName !== action.payload.product.productName;
