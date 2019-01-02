@@ -42,7 +42,8 @@
     ],
     "moduleNameMapper": {
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
-    }
+    },
+    "testPathIgnorePatterns" : ["./cypress/" ]
   },
   "babel": {
     "presets": [
