@@ -3,18 +3,26 @@ $danger-color:#ac2925;
 $primary-bg-color:#2e6da4;
 $danger-bg-color:#761c19;
 
+
 .btn {
   margin: 2px;
   border-radius:5px;
   color:#ffffff;
   padding: 4px;
   font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .btn-primary{
   background-color: $primary-color;
   border: 1px solid $primary-bg-color;
+  &:hover{
+    box-shadow: 3px 3px 5px #7a7373;
+  }
 }
 .btn-danger{
   background-color:$danger-color;
   border:1px solid $danger-bg-color;
+  &:hover{
+    box-shadow: 3px 3px 5px #7a7373;
+  }
 }

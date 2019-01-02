@@ -4,24 +4,25 @@
   list-style-type: none;
   justify-content: center;
   .product_item {
-    font-weight: 600;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
     width: 200px;
     .product_name {
+      font-weight: 600;
       overflow: hidden;
       width: 180px;
       text-overflow: ellipsis;
       white-space: nowrap;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       &:hover {
         overflow: visible;
       } 
     }
     .product_amount{
-      padding-bottom: 5px;
+      padding-bottom: 8px;
+      font-weight: 400;
     }
     .product_img {
       width: 50px;
