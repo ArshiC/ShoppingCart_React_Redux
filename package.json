@@ -9,6 +9,7 @@
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
     "enzyme-to-json": "^3.3.5",
+    "node-sass": "^4.11.0",
     "react-scripts": "^2.0.2"
   },
   "dependencies": {
@@ -45,7 +46,8 @@
   },
   "babel": {
     "presets": [
-      "env", "react"
+      "env",
+      "react"
     ]
   },
   "scripts": {
